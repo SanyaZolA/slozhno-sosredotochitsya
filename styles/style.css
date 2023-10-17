@@ -348,7 +348,6 @@ button {
   text-shadow: 2px 2px 0 var(--color-background);
   color: var(--color-title);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  margin-bottom: -74px;
 }
 
 @media (600px<=width<=800px) {
@@ -362,7 +361,7 @@ button {
   }
 
   .main__title-decorated {
-    grid-template-rows: 278px;
+    grid-template-rows: 270px;
   }
   
   .header__paragraph {
@@ -371,7 +370,7 @@ button {
     margin-top: 162px;
   }
 
-  .header::after {
+  .header::after {  
     bottom: 21px;
     left: 20px;
   }
@@ -402,6 +401,9 @@ button {
     max-width: 20vh;
   }
 
+  .content__how {
+    column-gap: 20px;
+  }
 }
 
 @media (width<600px) {
@@ -418,7 +420,7 @@ button {
   }
 
   .main__title-decorated {
-    grid-template-rows: 265px;
+    grid-template-rows: 253px;
     text-align: start;
     font-size: 116px;;
   }
@@ -426,7 +428,7 @@ button {
   .header__paragraph {
     display: flex;
     max-width: 364px;
-    margin-top: 53px;
+    margin-top: 56px;
   }
 
   .header__decor {
@@ -449,12 +451,12 @@ button {
     flex-wrap: nowrap;
     flex-direction: column;
     gap: 20px;
-
   }
 
   .content {
     padding: 40px 10px 0 10px;
     gap: 40px;
+    margin-top: 0;
   }
 
   .content__how {
