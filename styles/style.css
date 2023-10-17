@@ -42,7 +42,7 @@ button {
 .text-decor {
   color: var(--color-text);
   font-weight: var(--font-text-weigth);
-  line-height: 130%;
+  line-height: 130%;  
 }
 
 .header {
@@ -192,7 +192,7 @@ button {
 }
 
 .content__why-title {     
-  color: var(--color-background);
+  color: var(--color-text);
   background-color: unset;
 }
 
@@ -221,7 +221,7 @@ button {
 }
 
 .content__what-title {
-  color: var(--color-background);
+  color: var(--color-text);
   background-color: unset;
   max-width: 300px;
 }
@@ -249,7 +249,7 @@ button {
 
 .content__how-title {
   background-color: unset;
-  color: var(--color-background);
+  color: var(--color-text);
   gap: 20px;
 }
 
