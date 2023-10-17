@@ -1,34 +1,16 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
-button:focus,
-a:focus {
-  outline: none;
-}
-
-button:focus-visible,
-a:focus-visible {
-  outline: 1px solid currentColor;
-  padding: 0px 13px 3px 13px;
-}
-
 .page {
   font-family: var(--main-font), sans-serif;
   background-image: var(--background-image);
   font-size: var(--font-size);
-  height: 100vh;
+
   min-height: 668px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   text-align: center;
-}
-
-button {
-  padding: 0;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
 }
 
 .title-decor {
@@ -46,7 +28,7 @@ button {
 }
 
 .header {
-  min-height: 100vh;
+  min-height: 1024px;
   position: relative;
   padding-right: 20px;
 }
@@ -117,6 +99,7 @@ button {
 
 .header__theme-menu-button:hover {
   outline: 1px solid currentColor;
+  opacity: .4;
 }
 
 .header__theme-menu-button:focus {
@@ -161,7 +144,7 @@ button {
 }
 
 .link__decorated {
-  text-shadow: 1px 1px 0 var(--color-background);
+  text-shadow: 1px 1px 0 var(--color-focus);
   text-decoration: none;
 }
 
@@ -174,7 +157,7 @@ button {
 }
 
 .link__decorated:focus-visible {
-  outline: 1px solid #F1B2CE;
+  outline: 1px solid var(--color-focus);
 }
 
 .content {
@@ -185,13 +168,13 @@ button {
   text-align: left;
 }
 
-.content__why {
+.content__oneSection {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 10px;
 }
 
-.content__why-title {
+.content__oneSection-title {
   color: var(--color-text);
   background-color: unset;
 }
@@ -201,71 +184,70 @@ button {
   flex-direction: column;
 }
 
-.content__why-text {
+.content__oneSection-text {
   padding: 10px 0 20px 0;
 }
 
-.content__why-text:last-child {
+.content__oneSection-text:last-child {
   padding-bottom: 0px;
 }
 
-.content__what {
+.content__oneSection {
   display: flex;
   flex-direction: column;
   gap: 20px;
   margin: 0 auto;
 }
 
-.content__what-title {
+.content__oneSection-title {
   color: var(--color-text);
   background-color: unset;
   max-width: 300px;
 }
 
-.content__what-list {
+.content__oneSection-list {
   display: flex;
   gap: 20px;
 }
 
-.content__what-item {
+.content__oneSection-item {
   display: flex;
   flex-direction: column;
   max-width: 314px;
 }
 
-.content__what-paragraph {
+.content__oneSection-paragraph {
   margin-bottom: 10px;
 }
 
-.content__how {
+.content__threeSection {
   display: grid;
   grid-template-columns: 1fr 2fr;
   column-gap: 12px;
 }
 
-.content__how-title {
+.content__threeSection-title {
   background-color: unset;
   color: var(--color-text);
   gap: 20px;
 }
 
-.content__how-paragraph {
+.content__threeSection-paragraph {
   display: flex;
   margin-bottom: 10px;
 }
 
-.content__how-paragraph:first-child {
+.content__threeSection-paragraph:first-child {
   margin-bottom: 20px;
 }
 
-.content__how-text {
+.content__threeSection-text {
   margin-bottom: 20px;
 }
 
-.content__how-text:last-child {
+.content__threeSection-text:last-child {
   margin-bottom: 0;
 }
-
 
 .picture-grid {
   margin-bottom: 60px;
@@ -312,7 +294,7 @@ button {
 }
 
 .footer {
-  min-height: 100vh;
+  min-height: 1024px;
   position: relative;
   display: flex;
   align-items: center;
@@ -323,8 +305,8 @@ button {
   content: "";
   width: 25px;
   height: 25px;
-  border-right: 1px solid var(--color-background);
-  border-top: 1px solid var(--color-background);
+  border-right: 1px solid var(--color-decor);
+  border-top: 1px solid var(--color-decor);
   box-sizing: border-box;
   position: absolute;
   right: 20px;
@@ -335,8 +317,8 @@ button {
   content: '';
   width: 25px;
   height: 25px;
-  border-left: 1px solid var(--color-background);
-  border-bottom: 1px solid var(--color-background);
+  border-left: 1px solid var(--color-decor);
+  border-bottom: 1px solid var(--color-decor);
   box-sizing: border-box;
   position: absolute;
   bottom: 21px;
@@ -379,29 +361,29 @@ button {
     margin-top: 60px;
   }
 
-  .content__why {
+  .content__oneSection {
     gap: 20px;
   }
 
-  .content__what {
+  .content__twoSection {
     max-width: 100vh;
   }
   
-  .content__what-list {
+  .content__twoSection-list {
     display: flex;
     gap: 20px;
     flex-direction: column;
   }
 
-  .content__what-item {
+  .content__twoSection-item {
     max-width: 100vh;
   }
 
-  .content__what-title {
+  .content__twoSection-title {
     max-width: 20vh;
   }
 
-  .content__how {
+  .content__threeSection {
     column-gap: 20px;
   }
 }
@@ -446,7 +428,7 @@ button {
     left: 10px;
   }
 
-  .content__why {
+  .content__oneSection {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -459,33 +441,33 @@ button {
     margin-top: 0;
   }
 
-  .content__how {
+  .content__threeSection {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     padding: 10px 0;
   }
 
-  .content__how-title {
+  .content__threeSection-title {
     padding-bottom: 20px;
   }
 
-  .content__what {
+  .content__twoSection {
     max-width: 100vh;
     padding-top: 10px;
   }
   
-  .content__what-list {
+  .content__twoSection-list {
     display: flex;
     gap: 20px;
     flex-direction: column;
   }
 
-  .content__what-item {
+  .content__twoSection-item {
     max-width: 100vh;
   }
 
-  .content__what-title {
+  .content__twoSection-title {
     max-width: 100vh;
   }
 
