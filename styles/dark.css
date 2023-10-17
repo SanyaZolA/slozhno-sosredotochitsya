@@ -4,6 +4,16 @@
   переключая тему
 */
 
+:root.theme-dark  {
+  --color-title: #DB00FF;
+  --color-background: #FF0070;
+  --color-paragraph:#000028;
+  --color-text: #F1B2CE;
+  --color-decor: #FF0070;
+  --decor-display: flex;
+  --background-image: url(../images/cover-image-dark.png);
+}
+
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
