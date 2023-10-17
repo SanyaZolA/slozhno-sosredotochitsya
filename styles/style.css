@@ -33,7 +33,7 @@ button {
 
 .title-decor {
   background-color: var(--color-background);
-  color: var(--color-paragraph); 
+  color: var(--color-paragraph);
   font-weight: var(--font-title-weigth);
   line-height: 130%;
   font-size: var(--font-size);
@@ -112,7 +112,7 @@ button {
 }
 
 .header__theme-menu-button {
-  padding: 0px 13px 3px 13px;
+  padding: 0px 13px 6px 13px;
 }
 
 .header__theme-menu-button:hover {
@@ -135,7 +135,7 @@ button {
 
 .header__title {
   display: grid;
-  grid-template-rows: 404px;
+  grid-template-rows: 403px;
   align-items: end;
   justify-items: start;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -181,13 +181,14 @@ button {
   display: grid;
   gap: 80px;
   padding: 0 20px;
-  margin-top: 125px;
+  margin-top: 60px;
   text-align: left;
 }
 
 .content__why {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  gap: 10px;
 }
 
 .content__why-title {
@@ -198,10 +199,6 @@ button {
 .content-paragraph-text {
   display: flex;
   flex-direction: column;
-}
-
-.content__why-paragraph {
-  height: 23px;
 }
 
 .content__why-text {
