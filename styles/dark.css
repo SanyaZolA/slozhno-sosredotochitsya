@@ -4,10 +4,10 @@
   переключая тему
 */
 
-:root.theme-dark  {
+:root.theme-dark {
   --color-title: #DB00FF;
   --color-background: #FF0070;
-  --color-paragraph:#000028;
+  --color-paragraph: #000028;
   --color-text: #F1B2CE;
   --color-decor: #FF0070;
   --decor-display: flex;
