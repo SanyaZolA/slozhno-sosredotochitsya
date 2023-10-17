@@ -4,7 +4,7 @@
   переключая тему
 */
 
-.page.theme-dark {
+.page.theme_dark {
   --color-title: #DB00FF;
   --color-background: #FF0070;
   --color-paragraph: #000028;
