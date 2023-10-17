@@ -42,7 +42,7 @@ button {
 .text-decor {
   color: var(--color-text);
   font-weight: var(--font-text-weigth);
-  line-height: 130%;  
+  line-height: 130%;
 }
 
 .header {
@@ -83,8 +83,6 @@ button {
   display: flex;
   gap: 10px;
   align-items: center;
-  display: var(--decor-display);
-
 }
 
 .header__decor::after {
@@ -192,7 +190,7 @@ button {
   grid-template-columns: 1fr 2fr;
 }
 
-.content__why-title {     
+.content__why-title {
   color: var(--color-text);
   background-color: unset;
 }
@@ -353,7 +351,7 @@ button {
   text-shadow: 2px 2px 0 var(--color-background);
   color: var(--color-title);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  margin-bottom: -74px; 
+  margin-bottom: -74px;
 }
 
 @media (600px<=width<=800px) {
