@@ -5,6 +5,9 @@
 */
 
 .page.theme_light {
+}
+
+:root .theme_light {
   --color-title: #FFC2E6;
   --color-background: #FF8DCB;
   --color-paragraph:#000028;
