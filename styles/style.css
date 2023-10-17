@@ -166,7 +166,11 @@
 .content__oneSection-title {
   color: var(--color-text);
   background-color: unset;
-  max-width: 300px;
+}
+
+.content-paragraph-text {
+  display: flex;
+  flex-direction: column;
 }
 
 .content__oneSection-text {
@@ -177,18 +181,31 @@
   padding-bottom: 0px;
 }
 
-.content__oneSection-list {
+.content__twoSection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.content__twoSection-title {
+  color: var(--color-text);
+  background-color: unset;
+  max-width: 300px;
+}
+
+.content__twoSection-list {
   display: flex;
   gap: 20px;
 }
 
-.content__oneSection-item {
+.content__twoSection-item {
   display: flex;
   flex-direction: column;
   max-width: 314px;
 }
 
-.content__oneSection-paragraph {
+.content__twoSection-paragraph {
   margin-bottom: 10px;
 }
 
