@@ -234,7 +234,7 @@ button {
 .content__what-item {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
+  max-width: 314px;
 }
 
 .content__what-paragraph {
@@ -244,7 +244,7 @@ button {
 .content__how {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  column-gap: 20px;
+  column-gap: 12px;
 }
 
 .content__how-title {
