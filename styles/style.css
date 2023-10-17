@@ -1,18 +1,5 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
-.page {
-  font-family: var(--main-font), sans-serif;
-  background-image: var(--background-image);
-  font-size: var(--font-size);
-
-  min-height: 668px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  text-align: center;
-}
-
 .title-decor {
   background-color: var(--color-background);
   color: var(--color-paragraph);
@@ -28,8 +15,8 @@
 }
 
 .header {
-  height: 100vh;
-  min-height: 1024px;
+  max-height: 100%;
+  min-height: 668px;
   position: relative;
   padding-right: 20px;
 }
@@ -278,8 +265,8 @@
 }
 
 .footer {
-  height: 100vh;
-  min-height: 1024px;
+  max-height: 100%;
+  min-height: 667px;
   position: relative;
   display: flex;
   align-items: center;
