@@ -137,7 +137,7 @@ button {
 
 .header__title {
   display: grid;
-  grid-template-rows: 400px;
+  grid-template-rows: 404px;
   align-items: end;
   justify-items: start;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -182,7 +182,8 @@ button {
 .content {
   display: grid;
   gap: 80px;
-  padding: 60px 20px 0 20px;
+  padding: 0 20px;
+  margin-top: 125px;
   text-align: left;
 }
 
@@ -352,6 +353,7 @@ button {
   text-shadow: 2px 2px 0 var(--color-background);
   color: var(--color-title);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  margin-bottom: -74px; 
 }
 
 @media (600px<=width<=800px) {
@@ -377,6 +379,10 @@ button {
   .header::after {
     bottom: 21px;
     left: 20px;
+  }
+
+  .content {
+    margin-top: 60px;
   }
 
   .content__why {
