@@ -1,1 +1,1 @@
-Проект "Сложно сосредоточиться"! https://github.com/SanyaZolA/slozhno-sosredotochitsya
+https://github.com/SanyaZolA/slozhno-sosredotochitsya
