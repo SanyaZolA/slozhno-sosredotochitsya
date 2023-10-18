@@ -4,10 +4,6 @@
   переключая тему
 */
 
-.page.theme_dark {
-
-}
-
 :root .theme_dark {
   --color-title: #DB00FF;
   --color-content-title: #FF0070;
@@ -17,7 +13,7 @@
   --color-decor: #FF0070;
   --decor-display: flex;
   --background-image: url(../images/cover-image-dark.png);
-  --color-focus: #FF0070;;
+  --color-focus: #FF0070;
   --color-hover: rgba(255, 0, 112, 0.40);
 }
 

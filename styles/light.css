@@ -4,9 +4,6 @@
   переключая тему
 */
 
-.page.theme_light {
-}
-
 :root .theme_light {
   --color-title: #FFC2E6;
   --color-content-title: #353430;
