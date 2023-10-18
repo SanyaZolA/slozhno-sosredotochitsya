@@ -6,20 +6,6 @@
   box-sizing: border-box;
 }
 
-.page {
-  font-family: var(--main-font), sans-serif;
-  background-image: var(--background-image);
-  font-size: var(--font-size);
-  min-height: 375px;
-  max-height: 1440px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  text-align: center;
-}
-
-
 body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
@@ -53,19 +39,7 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  padding: 0;
   border: none;
   background-color: transparent;
   cursor: pointer;
-}
-
-button:focus,
-a:focus {
-  outline: none;
-}
-
-button:focus-visible,
-a:focus-visible {
-  outline: 1px solid currentColor;
-  padding: 0px 13px 3px 13px;
 }

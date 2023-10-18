@@ -10,18 +10,21 @@
 
 :root .theme_dark {
   --color-title: #DB00FF;
+  --color-content-title: #FF0070;
   --color-background: #FF0070;
   --color-paragraph: #000028;
   --color-text: #F1B2CE;
   --color-decor: #FF0070;
   --decor-display: flex;
   --background-image: url(../images/cover-image-dark.png);
-  --color-focus: #FF0070;
+  --color-focus: #FF0070;;
+  --color-hover: rgba(255, 0, 112, 0.40);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --color-title: #DB00FF;
+    --color-content-title: #FF0070;
     --color-background: #FF0070;
     --color-paragraph: #000028;
     --color-text: #F1B2CE;
@@ -29,5 +32,6 @@
     --decor-display: flex;
     --background-image: url(../images/cover-image-dark.png);
     --color-focus: #FF0070;
+    --color-hover: rgba(255, 0, 112, 0.40);
   }
 }

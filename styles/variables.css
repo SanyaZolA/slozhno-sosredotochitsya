@@ -5,15 +5,17 @@
 
 :root {
   --color-title: #DB00FF;
+  --color-content-title: #FF0070;
   --color-background: #FF0070;
   --color-paragraph:#000028;
   --color-text: #F1B2CE;
-  --color-decor: #ff0070;
+  --color-decor: #FF0070;
   --background-image: url(../images/cover-image-dark.png);
   --main-font: 'IBM Plex Mono';
   --font-size: 18px;
   --font-title-weigth: 700;
   --font-text-weigth: 400;
   --decor-display: none;
+  --color-hover: rgba(255, 0, 112, 0.40);
   --color-focus: #FF0070;
-}
+} 
