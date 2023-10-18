@@ -14,6 +14,7 @@
   --decor-display: none;
   --background-image: url(../images/cover-image-light.png);
   --color-focus: #353430;
+  --color-focus-link: #353430;
   --color-hover: rgba(50, 49, 45, 0.40);
 }
 
@@ -28,6 +29,7 @@
     --decor-display: none;
     --background-image: url(../images/cover-image-light.png);
     --color-focus: #353430;
+    --color-focus-link: #353430;
     --color-hover: rgba(50, 49, 45, 0.40);
   }
 }
