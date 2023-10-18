@@ -13,7 +13,7 @@
   --color-decor: #FF0070;
   --decor-display: flex;
   --background-image: url(../images/cover-image-dark.png);
-  --color-focus: #FF0070;
+  --color-focus:  #F1B2CE;
   --color-hover: rgba(255, 0, 112, 0.40);
 }
 
@@ -27,7 +27,7 @@
     --color-decor: #FF0070;
     --decor-display: flex;
     --background-image: url(../images/cover-image-dark.png);
-    --color-focus: #FF0070;
+    --color-focus: #F1B2CE;
     --color-hover: rgba(255, 0, 112, 0.40);
   }
 }
