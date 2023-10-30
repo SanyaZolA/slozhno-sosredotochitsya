@@ -147,10 +147,12 @@
 .link__decorated {
   text-shadow: 1px 1px 0 var(--color-background);
   text-decoration: none;
-}
+} 
 
 .link__decorated:hover {
   border-bottom: 2px solid var(--color-text);
+  color: var(--color-background);
+  transition: color 0.5s;
 }
 
 .link__decorated:focus {
@@ -160,6 +162,7 @@
 .link__decorated:focus-visible {
   padding: 0px 13px 3px 13px;
   outline: 1px solid var(--color-focus-link);
+  transition: outline 0.5s;
 }
 
 .content {
@@ -267,6 +270,10 @@
 .picture-grid__list {
   display: grid;
   gap: 20px;
+}
+
+.picture__scale:hover {
+  transform: scale(1.1);
 }
 
 .picture-grid__list-sunset {
