@@ -294,6 +294,7 @@
 
 .picture__scale:hover {
   transform: scale(1.04);
+  box-shadow:0px 0px 10px 3px var(--color-background);
 }
 
 .picture-grid__list-sunset {
