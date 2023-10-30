@@ -16,6 +16,7 @@
   --color-focus: #353430;
   --color-focus-link: #353430;
   --color-hover: rgba(50, 49, 45, 0.40);
+  --color-boxshadow: gray;
 }
 
 @media (prefers-color-scheme: light) {
@@ -31,5 +32,6 @@
     --color-focus: #353430;
     --color-focus-link: #353430;
     --color-hover: rgba(50, 49, 45, 0.40);
+    --color-boxshadow: gray;
   }
 }
