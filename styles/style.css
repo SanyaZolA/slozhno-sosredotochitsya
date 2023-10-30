@@ -438,6 +438,14 @@
     gap: 13px;
   }
 
+  #day {
+    transform-origin: center;
+  }
+  
+  #neon {
+    transform-origin: center;
+  }
+
   .main__title-decorated {
     grid-template-rows: 253px;
     text-align: start;
