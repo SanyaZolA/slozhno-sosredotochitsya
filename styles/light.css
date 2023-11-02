@@ -17,7 +17,7 @@
   --color-focus-link: #353430;
   --color-hover: rgba(50, 49, 45, 0.40);
   --color-boxshadow: gray;
-  --animation-title: 0 0 15px #7df9ff, 0 0 30px #7df9ff, 0 0 60px #7df9ff;
+  --animation-title: 4px 4px 0 var(--color-background), 0 0 15px  #7df9ff, 0 0 30px  #7df9ff, 0 0 60px #7df9ff;
 }
 
 @media (prefers-color-scheme: light) {
@@ -34,6 +34,6 @@
     --color-focus-link: #353430;
     --color-hover: rgba(50, 49, 45, 0.40);
     --color-boxshadow: gray;
-    --animation-title: 0 0 15px  #7df9ff, 0 0 30px  #7df9ff, 0 0 60px #7df9ff;
+    --animation-title: 4px 4px 0 var(--color-background), 0 0 15px  #7df9ff, 0 0 30px  #7df9ff, 0 0 60px #7df9ff;
   }
 }
