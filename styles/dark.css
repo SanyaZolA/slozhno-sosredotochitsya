@@ -17,6 +17,7 @@
   --color-focus-link: #F1B2CE;
   --color-hover: rgba(255, 0, 112, 0.40);
   --color-boxshadow: white;
+  --animation-title: 4px 4px 0 var(--color-background), 0 0 15px  #5555ff, 0 0 30px  #5555ff, 0 0 60px #5555ff;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,5 +34,6 @@
     --color-focus-link: #F1B2CE;
     --color-hover: rgba(255, 0, 112, 0.40);
     --color-boxshadow: white;
+    --animation-title: 4px 4px 0 var(--color-background), 0 0 15px  #5555ff, 0 0 30px  #5555ff, 0 0 60px #5555ff;
   }
 }

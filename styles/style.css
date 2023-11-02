@@ -103,7 +103,7 @@
 .header__theme-menu-button:hover {
   outline: 1px solid var(--color-hover);
   transform: scale(1.1);
-  box-shadow:0px 0px 10px 1px var(--color-background), 0px 0.5px 1px 0px var(--color-boxshadow) inset;
+  box-shadow:0px 0px 10px 1px var(--color-background), 0.5px 0.5px 1px 0px var(--color-boxshadow) inset;
 }
 
 .header__theme-menu-button:focus {
@@ -369,6 +369,16 @@
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
 
+@keyframes loading {
+  0% {
+    rotate: 0deg;
+  }
+
+  100% {
+    rotate: 360deg;
+  }
+}
+
 @media (600px<=width<=800px) {
 
   .header__theme-menu-list {
@@ -545,3 +555,25 @@
   }
 }
 
+.anima {
+  animation: blink 5s infinite alternate;
+  text-shadow: 4px 0 var(--color-background)
+}
+
+@keyframes blink {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: var(--animation-title);
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
